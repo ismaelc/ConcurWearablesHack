@@ -1,4 +1,6 @@
-<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;<a style="text-decoration:none; color:black" name="top" >Concur Wearable Traveler Hackathon
+<table>
+<tr><td><img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" /></td><td><a style="text-decoration:none; color:black" name="top" >Concur Wearable Traveler Hackathon</a></td>
+</table>
 =========
 <br/>
 This page contains information and links to all the resources you need for the **Concur Contest** in Wearables Traveler Hackathon:
@@ -16,7 +18,7 @@ This page contains information and links to all the resources you need for the *
 <a name="prizes">Best use of Concur API:</a>
 ----
         
-  - **$500 Amazon gift card**: *Best Use of Concur APIs* - the winning team gets a $500 Amazon gift card.
+  - **TBA**
     
 
 <a name="concur">What is Concur?</a>
@@ -344,7 +346,7 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 
 [Back to Top](#top)
 
-<a name="mashup">#APIConSF Sponsor Mashup ideas</a>
+<a name="mashup">Sponsor Mashup ideas</a>
 --
 Hit multiple birds with 1 stone with these Concur integration ideas.
 
@@ -363,7 +365,7 @@ Concur + SecureKey | Tighten your own Concur Expense/Travel app with [Securekey]
 
 [Back to Top](#top)
 
-<a name="sponsors">#APIConSF Sponsor API Links and Prizes</a>
+<a name="sponsors">Sponsor API Links and Prizes</a>
 --
 
 Sponsor  | Prizes
