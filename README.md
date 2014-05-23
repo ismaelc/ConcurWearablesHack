@@ -1,7 +1,7 @@
-<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;<a style="text-decoration:none; color:black" name="top" >Concur @ #APIConSF </a> &nbsp;<img src="https://jfqcza.bn1301.livefilestore.com/y2ptjgicP0ebOjYyHeIih7kFg5r2UQWMkL2pdY6M_TPX4tSdTM-NaKW1UF1fiqIdhtiS8mG9uYx1Dzzc-BNKYewC13H-UkBpUx-38WpJITCapA/Screen%20Shot%202014-05-19%20at%203.04.22%20PM.png?psid=1" width="100px" />
+<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;<a style="text-decoration:none; color:black" name="top" >Concur Wearable Traveler Hackathon
 =========
 <br/>
-This page contains information and links to all the resources you need for the **Concur Contest** in #APIConSF Hackathon:
+This page contains information and links to all the resources you need for the **Concur Contest** in Wearables Traveler Hackathon:
 
   - [Prize for **Best use of Concur API**](#prizes)
   - [What is Concur?](#concur)
@@ -10,8 +10,8 @@ This page contains information and links to all the resources you need for the *
   - [Often-used APIs e.g. *POST itinerary information*](#other)
   - [Sample code/libraries](#samplecode)
   - [Help! I'm stuck!](#help)
-  - [#APIConSF Sponsor Mashup ideas](#mashup)
-  - [#APIConSF Sponsor API Links and Prizes](#sponsors)
+  - [Sponsor Mashup ideas](#mashup)
+  - [Sponsor API Links and Prizes](#sponsors)
 
 <a name="prizes">Best use of Concur API:</a>
 ----
