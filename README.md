@@ -1,5 +1,5 @@
-<table>
-<tr><td><img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" /></td><td align="center"><h1><a style="text-decoration:none; color:black" name="top" >Concur Wearable Traveler Hackathon</a></h1></td>
+<table border="0">
+<tr><td><img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" /></td><td valign="top" align="center"><h1><a style="text-decoration:none; color:black" name="top" >Concur Wearable Traveler Hackathon</a></h1></td>
 </table>
 =========
 <br/>
