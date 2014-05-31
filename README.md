@@ -23,7 +23,7 @@ This page contains information and links to all the resources you need for the *
 <a name="concur">What is Concur?</a>
 -----------
 
- <img src='https://jfqcza.bn1303.livefilestore.com/y2pDadi2n4fFfdP7nP7r8tv0mYI0vjDmw1VAHp2h7wAz63qmdTheO7CFZNoMHVUM1AYm9-Ur3YHeR8RrN6yJyw0J_UVEqVwCsTqaxqYte1v6Fg/1.png?psid=1' width="200px"/> <img src='https://jfqcza.bn1302.livefilestore.com/y2pbj4PSh8gAbIicwDnrsPoA2qzBF7mZRE9iN6-tiMl7bE0VpuarZE5fGiQJXBPsZ5bLZoK-POwjWMOeTVh5I-2vr9YMxwnN8zjx08fvWHnE04/2.png?psid=1' width="200px" /> <img src='https://jfqcza.bn1301.livefilestore.com/y2pN7PVESkTt9qgjdCJk-aTmoCdKwZ8HonrNlTzylZPrgs_4rWesCjgd9SBV7xAx7BSaQ4c8wwU9GCCplNeGxfqCQPy-2gcw7c6T5n8O-Bm-y4/3.png?psid=1' width="200px" />
+ <img src='https://jfqcza.bn1.livefilestore.com/y2pACufAQVivalTFcHD9HZooL_5dppb3YBNwvNyvg6L-yeZbNeYEiO2h_AywEbvJDx6QvI4SJOhCadQ3gV1hpYLhJFr2pVEyAAXlqQrDqtuHXU/Screenshot_2014-05-31-10-50-40.png?psid=1' width="200px"/> <img src='https://jfqcza.bn1302.livefilestore.com/y2pbj4PSh8gAbIicwDnrsPoA2qzBF7mZRE9iN6-tiMl7bE0VpuarZE5fGiQJXBPsZ5bLZoK-POwjWMOeTVh5I-2vr9YMxwnN8zjx08fvWHnE04/2.png?psid=1' width="200px" /> <img src='https://jfqcza.bn1301.livefilestore.com/y2pN7PVESkTt9qgjdCJk-aTmoCdKwZ8HonrNlTzylZPrgs_4rWesCjgd9SBV7xAx7BSaQ4c8wwU9GCCplNeGxfqCQPy-2gcw7c6T5n8O-Bm-y4/3.png?psid=1' width="200px" />
 
 **Concur started out as a company that helped business travelers manage their receipts and reimbursements**.  If you've ever filled out an Excel sheet to itemize all your expense items, or carried a separate envelope to make sure you don't lose all your receipts for reimbursement, then you understand the pain that Concur solves for business travelers.  Using software, Concur set out to remove these unnecessary troubles.  
 
