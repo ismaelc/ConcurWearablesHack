@@ -30,7 +30,7 @@ To get an expense summary by using the Expense Report Digest API:
 
 You can interact with the API using Swagger [here](https://www.concursolutions.com/api/docs/index.html)
 
-<a href="https://www.concursolutions.com/api/docs/index.html"><img src="https://jfqcza.bn1.livefilestore.com/y2phbDjCiRKZp3Btneho4UncjWK46iv8GFhyKdTZ7xJJ9BCJ-JJiNrw7ieCenHdSGPgEZL0Tj7IYjGypUv61u3KdIrjj0dAUM35DjC3cPzLls0/Screen%20Shot%202014-05-31%20at%202.09.43%20PM.png?psid=1" /></a>
+<a href="https://www.concursolutions.com/api/docs/index.html"><img src="https://jfqcza.bn1.livefilestore.com/y2phbDjCiRKZp3Btneho4UncjWK46iv8GFhyKdTZ7xJJ9BCJ-JJiNrw7ieCenHdSGPgEZL0Tj7IYjGypUv61u3KdIrjj0dAUM35DjC3cPzLls0/Screen%20Shot%202014-05-31%20at%202.09.43%20PM.png?psid=1" width="610px" /></a>
 
 For the Itinerary APIs (v1.1), full API documentation, and apps that use the APIs, please refer to:
 
@@ -39,7 +39,7 @@ For the Itinerary APIs (v1.1), full API documentation, and apps that use the API
 Ideas for a Concur-powered business travel app:
 --
 
-<img src="https://jfqcza.bn1.livefilestore.com/y2pW4OEzxTpguO8XL5IAIzNQ_CiRQbSVAYOnWeNd1IWvId3XAfM0jIy9OTT0UgbaIjdepBO1JjbtmXP7JU3J_tO1JkNh1UbcmbE_HElMGRvXoQ/Wearable%20World%20-%20AA%20Hack%20map.png?psid=1" />
+<img src="https://jfqcza.bn1.livefilestore.com/y2pW4OEzxTpguO8XL5IAIzNQ_CiRQbSVAYOnWeNd1IWvId3XAfM0jIy9OTT0UgbaIjdepBO1JjbtmXP7JU3J_tO1JkNh1UbcmbE_HElMGRvXoQ/Wearable%20World%20-%20AA%20Hack%20map.png?psid=1" width="610px"/>
 (Image above:  Floor plan of Wearable Travel Hackathon - Parking, Checkin, Security, Gate, Club)
 
 Mash-up  | Idea
