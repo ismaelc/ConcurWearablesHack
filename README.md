@@ -44,6 +44,7 @@ Ideas for a Concur-powered business travel app:
 
 Mash-up  | Idea
 ------------- | -------------
+**Concur + weather** | Predict weather using Concur traveler's destination and date
 **Concur + smartwatch/ring**  | Use smartwatch/ring to confirm if Mastercard purchase line item should be sent to Concur as expense (or ignored if personal purchase); Display QR code to POS reader to send purchase as expense to Concur
 **Concur + beacons/indoor position**  | Use Concur user's expense history to push relevant proximity ads/recommendations; Determine walk-time to gate based on Itinerary info
 **Concur + credit/debit card**  | Use smartwatch/ring to confirm if Mastercard purchase line item should be sent to Concur as expense (or ignored if personal purchase)
@@ -53,5 +54,6 @@ Mash-up  | Idea
 Incentives
 --
 
-- To be announced
+- **$500 Amazon gift card** to winning team for the **"Best Use of Concur APIs"**
+- **1-year free access to [TripIt Pro](https://www.tripit.com/pro/comparison)** (10 promo cards to give away) 
 
