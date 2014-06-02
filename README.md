@@ -26,7 +26,7 @@ To get an expense summary by using the Expense Report Digest API:
     -H "Authorization: OAuth <insert your access token here>"
     -H "Accept: application/json"
     
-**To get an access token** (or learn how to generate one), please go to the Concur booth or click [here]() to advance to the section below.
+**To get an access token** (or learn how to generate one), please go to the Concur booth or click [here](#token) to advance to the section below.
 
 You can interact with the API using Swagger [here](https://www.concursolutions.com/api/docs/index.html)
 
@@ -69,11 +69,11 @@ The subsections below provide a more detailed information on how to:
 
   1. **Get your Consumer Key**  
 
- After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token.
+ After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token. (**Note: Get your Concur login/password from Chris at the Concur booth or email him at chris.ismael@concur.com**)
 
   <img src='http://chrispogeek.files.wordpress.com/2014/01/untitled.png' width="600px" />
 
-  2.  **Call the endpoint to request an access token**
+  2.  **Call the access token request endpoint**
 
   Here's what the HTTP call looks like to request for an access token:
 
