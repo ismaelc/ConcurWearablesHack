@@ -122,8 +122,8 @@ The subsections below provide a more detailed information on how to:
 
 [Back to Top](#addl)
 
- <a name="dummy">**POST/GET dummy data to/from Concur - the API or app**</a>
- --
+<a name="dummy">**POST/GET dummy data to/from Concur - the API or app**</a>
+--
 
   1. **Pushing dummy data to Concur using the API**  
 
@@ -253,7 +253,7 @@ The subsections below provide a more detailed information on how to:
 
 [Back to Top](#addl)
 
- <a name="samplecode">Sample code</a>
+<a name="samplecode">Sample code</a>
 --------------
 - [Windows 8 C#/XAML](https://github.com/ismaelc/Concur-Windows8-SampleCode)
 - [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
@@ -264,7 +264,7 @@ The subsections below provide a more detailed information on how to:
 - [node.js](https://github.com/sckuo/node-concur)
 
 <a name="example">Example apps</a>
- --
+--
 All app integrations with Concur can be found in the [App Center](https://www.concur.com/en-us/app-center).  Below are just two examples that would hopefully give you an idea on what to build:
 
  - [TravelText](https://www.concur.com/en-us/partners/transaction-capture/traveltext) - TravelText allows you to text your expenses right into Concur. No more paper receipts and Excel sheet mayhem!  Check out their video demo [here](https://www.youtube.com/watch?v=sxY_PO-QKZ0).
