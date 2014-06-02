@@ -127,7 +127,7 @@ The subsections below provide a more detailed information on how to:
 
   1. **Pushing dummy data to Concur using the API**  
 
-        POST a dummy Itinerary to Concur:
+    POST a dummy Itinerary to Concur:
 
           Request Type = POST
           Authorization = OAuth <your access token>
