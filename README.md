@@ -62,7 +62,12 @@ Incentives
 The subsections below provide a more detailed information on how to:
 
   - [Generate an access token](#token)
-  - [Pushing dummy data to Concur](#dummy)
+  - [POST/GET dummy data to/from Concur](#dummy)
+  - [Sample code](#samplecode)
+  - [Example apps in the App Center](#example)
+  - **Stuck?**  Contact Chris!
+    - *chris.ismael@concur.com*
+    - *@ConcurAPI* or *@chrispogeek*
 
 
  <a name="token">**Generate an access token**</a>
@@ -115,9 +120,9 @@ The subsections below provide a more detailed information on how to:
 
  **Note: The steps demonstrated above follow the OAuth Native Flow.  If you prefer something similar to a Facebook login experience, you can check out the OAuth Web Flow [here](https://developer.concur.com/api-documentation/oauth-20-0)**
 
-[Back to Additional Info](#addl)
+[Back to Top](#addl)
 
- <a name="token">**Pushing dummy data to Concur - the API or app**</a>
+ <a name="dummy">**POST/GET dummy data to/from Concur - the API or app**</a>
  --
 
   1. **Pushing dummy data to Concur using the API**  
@@ -246,5 +251,25 @@ The subsections below provide a more detailed information on how to:
 
    You can view/add new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls. After adding expenses, you can create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
 
+[Back to Top](#addl)
 
-[Back to Additional Info](#addl)
+ <a name="samplecode">Sample code</a>
+--------------
+- [Windows 8 C#/XAML](https://github.com/ismaelc/Concur-Windows8-SampleCode)
+- [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
+- [C#](https://github.com/concurtech/api-samples)
+- [C#](https://gist.github.com/dberke711/c8d0c9e04c7e76220d4e) (Generate access token native flow)
+- [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (POST image receipts)
+- [Python](https://gist.github.com/Trudeaucj/09c25e79c332e93703a0) (Generate access token)
+- [node.js](https://github.com/sckuo/node-concur)
+
+<a name="example">Example apps</a>
+ --
+All app integrations with Concur can be found in the [App Center](https://www.concur.com/en-us/app-center).  Below are just two examples that would hopefully give you an idea on what to build:
+
+ - [TravelText](https://www.concur.com/en-us/partners/transaction-capture/traveltext) - TravelText allows you to text your expenses right into Concur. No more paper receipts and Excel sheet mayhem!  Check out their video demo [here](https://www.youtube.com/watch?v=sxY_PO-QKZ0).
+
+ - [Trover](https://www.concur.com/en-us/app-center/listing/nDhf34TiiC9RCocFM2xViin5c/Trover) - it's travel photography + business travel integration in one great app. Quoting from this [article](http://skift.com/2013/07/25/travel-photography-app-trover-secures-2-5-million-in-funding-from-concur/#/0), what they get for integrating with Concur is *"being able to tap into Concur’s experience, knowledge and “great visibility into travel patterns”"*.
+
+
+[Back to Top](#addl)
