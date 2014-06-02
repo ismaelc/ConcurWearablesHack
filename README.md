@@ -115,7 +115,7 @@ The subsections below provide a more detailed information on how to:
 
  **Note: The steps demonstrated above follow the OAuth Native Flow.  If you prefer something similar to a Facebook login experience, you can check out the OAuth Web Flow [here](https://developer.concur.com/api-documentation/oauth-20-0)**
 
-[Back to Top](#addl)
+[Back to Additional Info](#addl)
 
  <a name="token">**Pushing dummy data to Concur - the API or app**</a>
  --
@@ -207,9 +207,9 @@ The subsections below provide a more detailed information on how to:
          </Report>
     **Hack tip 1:** You can POST using JSON by setting the header to `Content-Type:application/json` and checking out a sample JSON body in our [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) doc.  Note that the examples here use v1.1, and those shown in Swagger use v3.0.
 
-        **Hack tip 2**: You need to generate a report header to be able to submit an expense entry.  A collection of entries is a report.
+    **Hack tip 2**: You need to generate a report header to be able to submit an expense entry.  A collection of entries is a report.
         
-        *Click [here](https://developer.concur.com/api-documentation/web-services/expense-report) to view the relationship of an Expense Report Header to an Expense Report Entry and search for **Expense Report Processes**.   *
+    *Click [here](https://developer.concur.com/api-documentation/web-services/expense-report) to view the relationship of an Expense Report Header to an Expense Report Entry and search for **Expense Report Processes**.   *
     
     GET Expense Report Details:
 
@@ -247,4 +247,4 @@ The subsections below provide a more detailed information on how to:
    You can view/add new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls. After adding expenses, you can create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
 
 
-[Back to Top](#addl)
+[Back to Additional Info](#addl)
