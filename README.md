@@ -57,11 +57,12 @@ Incentives
 - **$500 Amazon gift card** to winning team for the **"Best Use of Concur APIs"**
 - **1-year free access to [TripIt Pro](https://www.tripit.com/pro/comparison)** (10 promo cards to give away) 
 
-Additional Information
+<a name="addl">Additional Information</a>
 --
 The subsections below provide a more detailed information on how to:
 
   - [Generate an access token](#token)
+  - [Pushing dummy data to Concur](#dummy)
 
 
  <a name="token">**Generate an access token**</a>
@@ -112,5 +113,138 @@ The subsections below provide a more detailed information on how to:
 
   <img src='https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
-[Back to Top](#top)
+ **Note: The steps demonstrated above follow the OAuth Native Flow.  If you prefer something similar to a Facebook login experience, you can check out the OAuth Web Flow [here](https://developer.concur.com/api-documentation/oauth-20-0)**
 
+[Back to Additional Info](#addl)
+
+ <a name="token">**Pushing dummy data to Concur - the API or app**</a>
+ --
+
+  1. **Pushing dummy data to Concur using the API**  
+
+        POST a dummy Itinerary to Concur:
+
+          Request Type = POST
+          Authorization = OAuth <your access token>
+          URI = https://www.concursolutions.com/api/travel/trip/v1.1/
+          ContentType = Application/XML
+          Body = 
+           <?xml version="1.0"?>
+           <Itinerary xmlns="http://www.concursolutions.com/api/travel/trip/2010/06">
+           <TripName>TechCrunch Disrupt Concur</TripName>
+           <StartDateLocal>2014-05-30T03:47:14</StartDateLocal>
+           <EndDateLocal>2014-06-06T03:47:14</EndDateLocal>
+           <Bookings>
+            <Booking>
+             <Segments>
+                 <Hotel>
+                     <Status>HK</Status>
+                     <StartCityCode>SFO</StartCityCode>
+                     <StartDateLocal>2014-05-30T07:47:14</StartDateLocal>
+                     <EndDateLocal>2014-06-06T03:47:14</EndDateLocal>
+                     <Name>Times Square Hilton New York</Name>
+                     <RecordLocator>Hotel Locator</RecordLocator>
+                     <RoomDescription>1 KING BED ACCESSIBLE ROOM - K1RRC</RoomDescriptio>
+                     <Currency>USD</Currency>
+                     <CancellationPolicy>Cxl 1 day prior to Arrival</CancellationPolicy>
+                     <DailyRate>240.3500</DailyRate>
+                     <NumRooms>1</NumRooms>
+                     <NumPersons>1</NumPersons>
+                     <RateCode>LV4</RateCode>
+                     <Charges>
+                         <Rate>
+                             <Currency>USD</Currency>
+                             <Amount>10.00</Amount>
+                             <StartDatelocal>2014-05-30T07:47:14</StartDatelocal>
+                             <IsPrimary>false</IsPrimary>
+                             <SemanticsCode>ROOMRATE</SemanticsCode>
+                             <PerUnit>DAY</PerUnit>
+                             <NumUnits>3.00</NumUnits>
+                         </Rate>
+                     </Charges>
+                 </Hotel>
+             </Segments>
+             <RecordLocator>Disrupt123</RecordLocator>
+             <BookingSource>Sample Itin for Disrupt</BookingSource>
+             <DateBookedLocal>2014-04-30T03:47:14</DateBookedLocal>
+           </Booking>
+           <Booking>
+             <Segments>
+                 <Air>
+                     <Vendor>AA</Vendor>
+                     <FlightNumber>425</FlightNumber>
+                     <StartCityCode>SFO</StartCityCode>
+                     <StartDateLocal>2014-05-30T03:47:14</StartDateLocal>
+                     <EndCityCode>NYC</EndCityCode>
+                     <EndDateLocal>2014-05-30T07:47:14</EndDateLocal>
+                     <Cabin>O</Cabin>
+                     <ClassOfService>O</ClassOfService>
+                 </Air>
+             </Segments>
+             <RecordLocator>Air Locator</RecordLocator>
+             <BookingSource>Sample Itin for Disrupt</BookingSource>
+             <DateBookedLocal>2014-04-30T03:47:14</DateBookedLocal>
+           </Booking>
+         </Bookings>
+         </Itinerary>
+         
+        POST Expense Report Header to Concur: 
+
+         Request Type = POST
+         Authorization = OAuth <your access token>
+         URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report
+         ContentType = Application/XML
+         Body = 
+         <Report xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03">
+             <Name>Disrupt Hackathon NYC Trip</Name>
+             <Purpose>All Hackathon Expenses</Purpose>
+             <Comment>Includes hotel and meals.</Comment>
+             <OrgUnit1>US</OrgUnit1>
+             <OrgUnit3>Bellevue</OrgUnit3>
+             <Custom1>Client</Custom1>
+             <Custom2>Local</Custom2>
+             <UserDefinedDate>2014-05-01 15:15:07.0</UserDefinedDate>
+         </Report>
+        **Hack tip 1:** You can POST using JSON by setting the header to `Content-Type:application/json` and checking out a sample JSON body in our [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) doc.  Note that the examples here use v1.1, and those shown in Swagger use v3.0.
+
+        **Hack tip 2**: You need to generate a report header to be able to submit an expense entry.  A collection of entries is a report.
+        
+        *Click [here](https://developer.concur.com/api-documentation/web-services/expense-report) to view the relationship of an Expense Report Header to an Expense Report Entry and search for **Expense Report Processes**.   *
+    
+    GET Expense Report Details:
+
+         Request Type = GET
+         Authorization = OAuth <your access token>
+         URI = https://www.concursolutions.com/api/expense/expensereport/v2.0/Reports/?reportcountry=US
+         ContentType = Application/JSON
+
+    POSTing Expense Report Entry:
+
+         Request Type = POST
+         Authorization = OAuth <your access token>
+         URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report/B6F4FD62FB424911A3B8/entry
+         ContentType = Application/XML
+         Body = 
+         <ReportEntries xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03">
+         <Expense>
+             <CrnCode>USD</CrnCode>
+             <ExpKey>BRKFT</ExpKey>
+             <Description>Starbucks for Breakfast</Description>
+             <TransactionDate>2014-05-01</TransactionDate>
+             <TransactionAmount>15.54</TransactionAmount>
+             <Comment>Breakfast meeting</Comment>
+             <VendorDescription>Starbucks</VendorDescription>
+             <IsPersonal>N</IsPersonal>
+         </Expense>
+         </ReportEntries> 
+  2. **Pushing dummy expense data to Concur using the app**
+   
+   You can access the web version of Concur at http://concursolutions.com/ or get the mobile app from [App Store](https://itunes.apple.com/us/app/concur-travel-receipts-expense/id335023774?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.concur.breeze).
+
+   <center>
+<img src="https://jfqcza.bn1.livefilestore.com/y2prf7yXWtqtcsjpFh2XXu6XQ7ppeIg8SqyBAFEUIcqwGG-TQz1vpZhxx6ac2ySbguL5EAsg0IerEzlUQRynANwyVmyt9dUxWWwNS-x75NX248/Screen%20Shot%202014-05-31%20at%2012.02.06%20PM.png?psid=1" /></center>
+
+   You can view/add new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls. After adding expenses, you can create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
+
+
+[Back to Additional Info](#addl)
