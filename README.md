@@ -64,7 +64,7 @@ The subsections below provide a more detailed information on how to:
   - [Generate an access token](#token)
   - [POST/GET dummy data to/from Concur](#dummy)
   - [Sample code](#samplecode)
-  - [Example apps in the App Center and previous hackathon](#example)
+  - [Example apps in the App Center and previous hackathons](#example)
   - **Stuck?**  Contact Chris!
     - *chris.ismael@concur.com*
     - *@ConcurAPI* or *@chrispogeek*
