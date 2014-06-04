@@ -56,6 +56,7 @@ Incentives
 
 - **$500 Amazon gift card** to winning team for the **"Best Use of Concur APIs"**
 - **1-year free access to [TripIt Pro](https://www.tripit.com/pro/comparison)** (10 promo cards to give away) 
+- Free tickets to “The Perfect Trip DevCon 2014” for all teams that use and demo their Concur apps on stage
 
 <a name="addl">Additional Information</a>
 --
