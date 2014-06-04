@@ -64,7 +64,7 @@ The subsections below provide a more detailed information on how to:
   - [Generate an access token](#token)
   - [POST/GET dummy data to/from Concur](#dummy)
   - [Sample code](#samplecode)
-  - [Example apps in the App Center](#example)
+  - [Example apps in the App Center and previous hackathon](#example)
   - **Stuck?**  Contact Chris!
     - *chris.ismael@concur.com*
     - *@ConcurAPI* or *@chrispogeek*
@@ -271,5 +271,6 @@ All app integrations with Concur can be found in the [App Center](https://www.co
 
  - [Trover](https://www.concur.com/en-us/app-center/listing/nDhf34TiiC9RCocFM2xViin5c/Trover) - it's travel photography + business travel integration in one great app. Quoting from this [article](http://skift.com/2013/07/25/travel-photography-app-trover-secures-2-5-million-in-funding-from-concur/#/0), what they get for integrating with Concur is *"being able to tap into Concur’s experience, knowledge and “great visibility into travel patterns”"*.
 
+[Challengepost](http://challengepost.com/software/built-with/concur) also lists Concur API integrations from previous hackathons.  Definitely worth checking out!
 
 [Back to Top](#addl)
