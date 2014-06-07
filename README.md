@@ -193,6 +193,8 @@ The subsections below provide a more detailed information on how to:
            </Booking>
          </Bookings>
          </Itinerary>
+   
+    **Hack tip :** More details on the Itinerary API v1.1. [here](https://developer.concur.com/api-documentation/web-services/itinerary/itinerary-resource/itinerary-resource-get)
          
     POST Expense Report Header to Concur: 
 
