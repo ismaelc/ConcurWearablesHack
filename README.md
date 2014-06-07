@@ -11,9 +11,9 @@ Concur is a travel and expense software solution that lets 25M business traveler
 What can I do with Concur APIs?
 --
 
-The Travel/Itinerary API (v1.1) lets you access a Concur user's itinerary, including hotel/flight booking info.  As an example, you can mash-up the Itinerary API with a restaurant database/API to provide recommendations of places to eat near a COncur user's hotel booking.
+The **Travel/Itinerary API (v1.1)** lets you access a Concur user's itinerary, including hotel/flight booking info.  As an example, you can mash-up the Itinerary API with a restaurant database/API to provide recommendations of places to eat near a COncur user's hotel booking.
 
-The Expense API (v3.0) allows you to get (and push) a Concur user's expense information, including expense line items, their types (e.g. food, lodging), totals, and even receipt images.
+The **Expense API (v3.0)** allows you to get (and push) a Concur user's expense information, including expense line items, their types (e.g. food, lodging), totals, and even receipt images.
 
 Here's an example on how to get an Itinerary List of a Concur user:
 
