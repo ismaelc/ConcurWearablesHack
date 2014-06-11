@@ -265,6 +265,7 @@ The subsections below provide a more detailed information on how to:
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (POST image receipts)
 - [Python](https://gist.github.com/Trudeaucj/09c25e79c332e93703a0) (Generate access token)
 - [node.js](https://github.com/sckuo/node-concur)
+- Java using [Maven](https://github.com/Trudeaucj/Concur-java-examples) or [Gradle](https://github.com/Trudeaucj/Concur-java-examples-gradle)
 
 <a name="example">Example apps</a>
 --
