@@ -150,7 +150,7 @@ The subsections below provide a more detailed information on how to:
                      <EndDateLocal>2014-06-06T03:47:14</EndDateLocal>
                      <Name>Times Square Hilton New York</Name>
                      <RecordLocator>Hotel Locator</RecordLocator>
-                     <RoomDescription>1 KING BED ACCESSIBLE ROOM - K1RRC</RoomDescriptio>
+                     <RoomDescription>1 KING BED ACCESSIBLE ROOM - K1RRC</RoomDescription>
                      <Currency>USD</Currency>
                      <CancellationPolicy>Cxl 1 day prior to Arrival</CancellationPolicy>
                      <DailyRate>240.3500</DailyRate>
